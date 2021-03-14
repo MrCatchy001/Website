@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+img {
+    height: 150px;
+    position: relative;
+    left: 100px;
+}
+
+
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:90%;
+    padding: 1%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container ,
+.navlinks {
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+nav{
+flex: 2;
+}
+
+.navlinks{
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+    
+    
+}
+
+.navlink{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+ul li a {
+    transition: all 0.3s ease-out;
+}
+ul li a:hover {
+    background-color: rgb(155, 7, 7);
+    color: white;
+    padding-inline: 20px;
+    transition: 0.69s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-weight: bold;
+}
+
+
+
+
+/*body*/
+body{
+    background: rgb(60, 60, 61);
+    background: linear-gradient(
+        to right,
+        rgb(100, 97, 97),
+        rgb(58, 56, 56),
+        rgb(19, 18, 18));
+        
+    )
+}
+.title{
+    position: absolute;
+    justify-content: center;
+    top: 35%;
+    left: 31%;
+   
+}
+
+.title h1{
+    color: white;
+    font-size: 69px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title h2{
+    font-size: 34.5px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-inline: 20px;
+    
+}
+
+.middle{
+    background-color: white;
+}
